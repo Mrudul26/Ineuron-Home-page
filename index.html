@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iNeuron</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/03e4e26ba8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="container">
+            <div class="logo">
+                <img src="./assets/iNeuron-1.png" alt="ineron-logo" class="ineuron-logo">
+            </div>
+            <div class="nav-items">
+            <div class="nav-contents">
+                    <button class="nav-item">Courses
+                    <i class="fa fa-caret-down"></i></button>
+               <div class="dropdown-content">
+                <a href="#">Data Science</a>
+                <a href="#">Big Data</a>
+                <a href="#">Javascript</a>
+                <a href="#">Python</a>
+               </div>
+            </div>
+         <div class="nav-contents">     
+            <button class="nav-item">Company
+                        <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">One Neuron</a>
+                <a href="#">Job Portal</a>
+                <a href="#">Internship Portal</a>
+                <a href="#">Live Programs</a>
+                <a href="#">Become an Affiliate</a>
+              </div>
+         </div>
+         <div class="nav-contents">   
+                    <button class="nav-item"><a href="https://halloffame.ineuron.ai/">Hall of fame</a></button>
+         </div>
+            <div class="nav-contents">   
+                    <button class="nav-item"><a href="https://blog.ineuron.ai/">Blog</a></button>
+            </div>
+            <div class="nav-contents">   
+                    <button class="nav-item-login"><a href="https://account.ineuron.ai/signup?domain=ineuron.ai&redirectUrl=%2F">Sign up</a></button>
+            </div>
+            <div class="nav-contents">   
+                    <button class="nav-item-login"><a href="https://account.ineuron.ai/signin?domain=ineuron.ai&redirectUrl=%2F">Sign in</a></button>
+             </div>
+            </div>
+        </div>
+        </nav>
+        <hr>
+    </header>
+    <section class="section-1">
+        <div class="top-section-1">
+            <h2><span class="suggestions"></span></h2>
+            <h1 class="quality">Highest in quality, affordable in price</h1>
+            <p class="top-para">Digital entrepreneurs, Youtubers and content creators provide affordable courses across technologies.</p>
+        </div>
+        <div class="right-section">
+            <img src="./assets/top-img.png" alt="code" class="right-img">
+        </div>
+    </section>
+    <section class="section-2">
+        <h1 class="quote">Hall of fame</h1>
+        <div class="testimonial">
+            <div class="testimonial-text">
+                <div class="user-text">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>I was following Krish Sir YouTube channel for more than 2-3 year. I learnt Machine Learning and Deep Learning from him. I learnt basics of big data from Sudhanshu sir. During my bar raiser interviews at Amazon, i was able to explain my project 
+                        and concepts behind it very easily. He was quite impressed. 
+                        Thanks Krish sir for amazing content on YouTube</p>
+                        <span>Aakash B Software Development Engineer 1, Amazon</span>
+                </div>
+         
+                <div class="user-text active-text">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>I have enrolled for your ML course two years back , Python you taught in that course was awesome due to which I have cracked about 5 interview and concepts were also so much cleared . Thanks sir, now I have enrolled for your Enterprise Java and spring boot to learn about java as my company has asked me to learn it. Now whenever I want to learn it 
+                        I will always choose iNeuron Thanks sir and team for amazing guidance and syllabus</p>
+                        <span>Chitra Patgar Programmer Analyst, Cognizant(genc next) ,Coditas , Celebal, Capgemini, Atos</span>
+                </div>
+            
+                <div class="user-text">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>It was a great journey with Ineuron, worked consistantly for an year to do a successsful transition into Data Science field. As an Industrial Engineering graduate and some years of gap(preparing for govt. exams) , it was difficult for me in the starting but i kept learning and implementing and persevered the difficult phase. I am thankful to all my instructors at iNeuron for providing such an insightful 
+                        Data Science knowledge and projects. It's a new start now- Keep learning and growing.</p>
+                        <span>Vivek Kumar Associate Data Scientist, Affine</span>
+                </div>
+          
+                <div class="user-text">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>A few days back I was scheduled for an interview at ECOLABS. Thanks to Naveen Reddy sir and his wonderful Youtube channel, I was able to attend the interview with confidence and also did answer most of the questions on OOPs concept.
+                         I would like to emphasize on the same, with heart felt gratitude.</p>
+                        <span>Shrivatsa G trainee software developer, ECOLAB</span>
+                </div>
+           
+                <div class="user-text">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>I joined Ineuron's Machine Learning Program for the October 2020 batch. It was a wonderful experience and got me motivated to explore more into this vast industry. I focused on Python, Statistics and personally studied Power BI and
+                         SQL which later helped me to successfully switch to Infocepts as a Data Analyst.</p>
+                        <span>Ajay Kumar Data Analyst, Infocepts</span>
+                </div>
+            </div>
+            </div>
+        <div class="testimonial-pic">
+            <img src="./Story-teller-Images/user-1.jpeg" class="user-pic" onclick="showReview()">
+            <img src="./Story-teller-Images/user-2.jpeg" class="user-pic active-pic" onclick="showReview()">
+            <img src="./Story-teller-Images/user-3.jpeg" class="user-pic" onclick="showReview()">
+            <img src="./Story-teller-Images/user-4.jpeg" class="user-pic" onclick="showReview()">
+            <img src="./Story-teller-Images/user-5.jpeg" class="user-pic" onclick="showReview()">
+        </div>
+        <div class="section-2-last-btn">
+            <button class="last-btn-2"><a href="https://halloffame.ineuron.ai/">View More</a></button>
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="container-3">
+            <div class="section-3-head">
+              <h2 class="section-heading"><span class="section-overline">Live Programs</span>Get your program with live "instructor led" learning.</h2>
+            </div>
+            
+            <div class="slider-frame">
+              <ul class="free-flow-list slider-list slider" style="transition-timing-function: ease; transition-duration: 300ms; transform: translateX(0px);">
+                  <li class="career-growth-item free-flow-item slider-slide active">
+                    <div class="career-growth-card card-3" style="background-image: url(&quot;./assets/course-1.jpg&quot;);">
+                      <div class="career-growth-card-content">
+                        <p class="live-course-title">Full Stack Web Development using Python in Hindi</p>
+                        <p class="career-growth-worriors-name">Navin Reddy</p>
+                        <p class="fees">₹4000.00</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="career-growth-item free-flow-item slider-slide">
+                    <div class="career-growth-card card-3" style="background-image: url(&quot;./assets/course-2.jpg&quot;);">
+                      <div class="career-growth-card-content">
+                        <p class="live-course-title">DSA for FAANG preparation with Python and JavaScript</p>
+                        <p class="career-growth-worriors-name">Anurag Tiwari</p>
+                        <p class="fees">₹4000.00</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="career-growth-item free-flow-item slider-slide">
+                    <div class="career-growth-card card-3" style="background-image: url(&quot;./assets/course-3.jpg&quot;);">
+                      <div class="career-growth-card-content">
+                        <p class="live-course-title">Job Guaranteed Big Data Bootcamp</p>
+                        <p class="career-growth-worriors-name">Shashank Mishra</p>
+                        <p class="fees">₹17700.00</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="career-growth-item free-flow-item slider-slide">
+                    <div class="career-growth-card card-3" style="background-image: url(&quot;./assets/course-4.jpg&quot;);">
+                      <div class="career-growth-card-content">
+                        <p class="live-course-title">Digital Marketing Batch 2 in Hindi</p>
+                        <p class="career-growth-worriors-name">Amresh Bharti</p>
+                        <p class="fees">₹11000.00</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="career-growth-item free-flow-item slider-slide">
+                    <div class="career-growth-card card-3" style="background-image: url(&quot;./assets/course-5.jpg&quot;);">
+                      <div class="career-growth-card-content">
+                        <p class="live-course-title">YouTube Mastery Batch 2 in Hindi</p>
+                        <p class="career-growth-worriors-name">Amresh Bharti</p>
+                        <p class="fees">₹7000.00</p>
+                      </div>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+            <div class="section-3-last-btn">
+                <button class="last-btn-3"><a href="https://ineuron.ai/courses">View More</a></button>
+            </div>
+          </div>
+    </section>
+
+    <section class="section-4">
+        <div class="section-4-heading">
+            <h1>Our Achiever’s Work with</h1>
+        </div>
+        <hr class="section4-hr">
+        <div class="companies">
+        <div class="company">
+                    <img src="https://ineuron.ai/images/landing-page/companies/leventm.png" alt="" class="item">
+                
+                    <img src="https://ineuron.ai/images/landing-page/companies/wipro.png" alt="" class="item">
+                
+                    <img src="https://ineuron.ai/images/landing-page/companies/thoughtworks.png" alt="" class="item">
+                
+                    <img src="https://ineuron.ai/images/landing-page/companies/mindtree.png" alt="" class="item">
+                
+                    <img src="https://ineuron.ai/images/landing-page/companies/zensar.png" alt="" class="item">
+                
+                    <img src="https://ineuron.ai/images/landing-page/companies/livspace.png" alt="" class="item">
+                
+                    <img src="https://ineuron.ai/images/landing-page/companies/geekyants.png" alt="" class="item">
+                
+                    <img src="https://ineuron.ai/images/landing-page/companies/musigma.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/robosoft.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/odessa.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/affine.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/wissen.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/redbus.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/wellnesys.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/tataiq.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/zensar.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/eminds.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/cohesity.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/boeing.png" alt="" class="item">
+                    <img src="https://ineuron.ai/images/landing-page/companies/bun&bradstreet.png" alt="" class="item">
+        </div>
+    </div>
+
+    </section>
+    <section class="section-5">
+        <div class="section-5-heading">
+            <h1 class="tech-heads">Tech Avengers</h1>
+        </div>
+        <div class="slide-container-5 swiper">
+            <div class="slide-content-slide">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/hitesh-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Hitesh Choudhary</h2>
+                            <p class="description-5">CTO</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/sudhanshu-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Sudhanshu Kumar</h2>
+                            <p class="description-5">AI Engineer & CEO</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/Mukesh-Otwani-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Mukesh Otwani</h2>
+                            <p class="description-5">VP Automation</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/krish-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Krish Naik</h2>
+                            <p class="description-5">CIO</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/Kiran-Sahu-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Kiran Sahu</h2>
+                            <p class="description-5">Mentor</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/telusko-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Navin Reddy</h2>
+                            <p class="description-5">Senior VP</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/amresh-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Amresh Bharti</h2>
+                            <p class="description-5">VP Marketing</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/Souranghsu-Pal.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Souranghsu Pal</h2>
+                            <p class="description-5">Mentor</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                    <div class="card-5 swiper-slide">
+                        <div class="image-content-all">
+                            <span class="overlays"></span>
+
+                            <div class="card-image">
+                                <img src="https://ineuron.ai/images/landing-page/mentors/sunny-square.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content-5">
+                            <h2 class="name-5">Sunny Bhaveen Chandra</h2>
+                            <p class="description-5">Data Scientist</p>
+
+                            <button class="button-5">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="section-6">
+        <div class="institutes">
+            <h1 class="institute-heading">Our Partnered Institutions</h1>
+        </div>
+        <div class="institutes-img">
+            <img src="./assets/institute-1.svg" alt="img1">
+            <img src="./assets/institute-2.svg" alt="img1">
+            <img src="./assets/institute-3.svg" alt="img1">
+            <img src="./assets/institute-4.svg" alt="img1">
+            <img src="./assets/institute-5.svg" alt="img1">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="bottom-container">
+                <div class="first-part">
+                    <div class="logo-content">
+                        <img src="./assets/iNeuron-1.png" alt="logo">
+                        <div>
+                            <p class="address">17th Floor Tower A, Brigade Signature Towers, Sannatammanahalli, Bengaluru, Karnataka 562129.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="middle-part">
+                    <div class="info-container">
+                        <p class="info-name">iNeuron</p>
+                        <div class="list-container">
+                            <p class="footer-items">
+                                <a href="https://ineuron.ai/about-us">About us</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://ineuron.ai/contact-us">Contact us</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://hackathon.ineuron.ai/neo">Hack-A-Thon</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://ineuron.ai/job-guarantee">Job guarantee</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://ineuron.ai/faqs">FAQs</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://ineuron.ai/job-assistance">Job assistance</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://ineuron.ai/privacy-policy">Privacy policy</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://ineuron.ai/terms-and-conditions">Terms and conditions</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-part">
+                    <div class="last-info-container">
+                        <p class="last-info-name">Products</p>
+                        <div class="last-list-container">
+                            <p class="footer-items">
+                                <a href="https://jobs.ineuron.ai/">Job Portal</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://internship.ineuron.ai/">Internship portal</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://affiliate.ineuron.ai/">Become an affiliate</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://halloffame.ineuron.ai/">Hall of frame</a>
+                            </p>
+                            <p class="footer-items">
+                                <a href="https://blog.ineuron.ai/">InBlog</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".suggestions" , {
+            strings: ["Learn from the best of industry","I Write Code","Make better tommorrow ","Learn the skills that the world needs","Pure Hardwork, No Shortcuts!"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+
+        let userTexts= document.getElementsByClassName("user-text");
+        let userPics = document.getElementsByClassName("user-pic");
+
+        function showReview(){
+            for(userPic of userPics){
+                userPic.classList.remove("active-pic");
+            }
+            for(userText of userTexts){
+                userText.classList.remove("active-text");
+            }
+            let i= Array.from(userPics).indexOf(event.target);
+
+            userPics[i].classList.add("active-pic");
+            userTexts[i].classList.add("active-text");
+        }
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
